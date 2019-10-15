@@ -22,7 +22,7 @@ def dealfile(dpath):
 			dealfile(nDir)
 		if f.find('mp4') >= 0 or os.path.isdir(os.path.join(dpath, f)):
 			nDir = os.path.join(dpath, f)
-			nDir = nDir.replace('/home/leon/coursera', 'http://101.132.119.76')
+			nDir = nDir.replace('/home/leon/coursera', 'http://zhangyf.xyz')
 			a.write('<p><a href=\''.encode('utf-8'))
 			a.write(nDir.encode('utf-8'))
 			a.write('\'>'.encode('utf-8'))
